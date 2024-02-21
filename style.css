@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url(assets/Unknown.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.nav-logo{
+height: 50px;
+width: 110px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    
+}
+.search-icon{
+    background-color: #F3A846;
+    border-radius: 4px;
+}
+.hello{
+    display: flex;
+}
+.lang{
+    align-items: center;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.menu{
+    display: flex;
+    color: #FFFFFF;
+}
+.panel{
+    display: flex;
+    height: 39px;
+    align-items: center;
+    background-color: #222F3E;
+    justify-content: space-around;
+}
+.options{
+    color: #FFFFFF;
+}
+.o{
+    padding-left: 5px;
+}
+.hero{
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.box_f{
+    margin-top: 320px;
+    height: 370px;
+    border: 2px white;
+    background-color: #FFFFFF;
+    width: 95%;
+    display: grid;
+    justify-content: center;
+}
+.box{
+    margin-top: 20px;
+    height: 370px;
+    border: 2px white;
+    width: 95%;
+    background-color: #FFFFFF;
+    justify-content: center;
+    justify-items: center;
+}
+.hero2{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #ECE1B8;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.box_f img{
+    width: 240px;
+    height: 300px;
+    
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+
+}
+.gallery img{
+    width:142px;
+    height:115px;
+}
+.box img{
+    
+}
