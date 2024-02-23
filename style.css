@@ -87,21 +87,24 @@ width: 110px;
 }
 .box_f{
     margin-top: 320px;
-    height: 370px;
+    height: 390px;
     border: 2px white;
     background-color: #FFFFFF;
     width: 95%;
     display: grid;
     justify-content: center;
+    justify-items: center;
 }
 .box{
     margin-top: 20px;
-    height: 370px;
+    height: 390px;
     border: 2px white;
     width: 95%;
     background-color: #FFFFFF;
+    display: grid;
     justify-content: center;
-    justify-items: center;
+    /* justify-items: center; */
+    
 }
 .hero2{
     display: grid;
@@ -232,4 +235,17 @@ h4{
 .qw{
     padding-left: 50px;
     padding-right: 50px;
+}
+.s{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
+.c1 a:visited{
+    color: #800080;
 }
